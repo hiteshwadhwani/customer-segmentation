@@ -1,0 +1,2 @@
+"0","k4<-kmeans(customer_data[,3:5],4,iter.max=100,nstart=50,algorithm=""Lloyd"")"
+"0","s4<-plot(silhouette(k4$cluster,dist(customer_data[,3:5],""euclidean"")))"

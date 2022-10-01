@@ -1,0 +1,6 @@
+"0","kCols=function(vec){cols=rainbow (length (unique (vec)))"
+"0","return (cols[as.numeric(as.factor(vec))])}"
+"0",""
+"0","digCluster<-k6$cluster; dignm<-as.character(digCluster); # K-means clusters"
+"0",""
+"0","plot(pcclust$x[,1:2], col =kCols(digCluster),pch =19,xlab =""K-means"",ylab=""classes"")"
